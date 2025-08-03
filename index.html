@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row mt-3">
+        <div class="col-4 product-form">
+          <div class="card">
+            <h5 class="card-title text-center my-4 fs-1 fw-bolder">Product Form</h5>
+            <div class="p-3 d-flex flex-column">
+              <label for="orderNumber" class="form-label fs-5 fw-medium">Mahsulot ID Raqami</label>
+              <input type="text" placeholder="ID" class="form-control mb-4" id="orderNumber"/>
+
+              <label for="title" class="form-label fs-5 fw-medium">Mahsulot Nomi</label>
+              <input
+                type="text"
+                placeholder="Title"
+                class="form-control mb-4"
+                id="title" />
+
+              <label for="price" class="form-label fs-5 fw-medium">Mahsulot Narxi</label>
+              <input
+                type="text"
+                placeholder="Price"
+                class="form-control mb-4"
+                id="price" />
+
+              <label for="tax" class="form-label fs-5 fw-medium">Mahsulotga Qo`shiladigan Soliq</label>
+              <input
+                type="text"
+                placeholder="Taxes"
+                class="form-control mb-4"
+                id="tax" />
+
+              <label for="title" class="form-label fs-5 fw-medium">Mahsulot Umumiy Narxi</label>
+              <input
+                type="text"
+                placeholder="Total"
+                class="form-control mb-4"
+                id="total" />
+              <button class="btn btn-primary form-button p-2 fs-5" id="submit-btn">
+                Submit
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-8 product-table">
+          <input type="text" class="form-control mb-3" placeholder="Search" />
+          <table class="table table-striped">
+            <thead class="table-info text-danger">
+              <tr>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Price</th>
+                <th>Tax</th>
+                <th>Total</th>
+                <th>Edit</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>phone</td>
+                <td>3.000.000</td>
+                <td>4%</td>
+                <td>4.120.000</td>
+                <td>nmnm</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous">
+  </script>
+  <script src="main.js"></script>
+</html>

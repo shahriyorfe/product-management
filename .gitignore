@@ -1,0 +1,4 @@
+node_modules/
+eslint.config.mjs
+eslint.config.mts
+tsconfig.json
